@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A10A6718296DB759008A6655 /* ModelEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10A6717296DB759008A6655 /* ModelEndPoint.swift */; };
+		A10A671A296DBDC2008A6655 /* ModelIngredients.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10A6719296DBDC2008A6655 /* ModelIngredients.swift */; };
+		A10A671C296DBEE7008A6655 /* ModelSpells.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10A671B296DBEE7008A6655 /* ModelSpells.swift */; };
+		A10A671E296DC309008A6655 /* MenuViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10A671D296DC309008A6655 /* MenuViewModels.swift */; };
 		A180FF99296D8C63002A36B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A180FF98296D8C63002A36B9 /* AppDelegate.swift */; };
 		A180FF9B296D8C63002A36B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A180FF9A296D8C63002A36B9 /* SceneDelegate.swift */; };
 		A180FF9D296D8C63002A36B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A180FF9C296D8C63002A36B9 /* ViewController.swift */; };
 		A180FFA0296D8C63002A36B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A180FF9E296D8C63002A36B9 /* Main.storyboard */; };
 		A180FFA2296D8C64002A36B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A180FFA1296D8C64002A36B9 /* Assets.xcassets */; };
 		A180FFA5296D8C64002A36B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A180FFA3296D8C64002A36B9 /* LaunchScreen.storyboard */; };
+		A180FFAE296D8FAD002A36B9 /* ModelElixirs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A180FFAD296D8FAD002A36B9 /* ModelElixirs.swift */; };
+		A180FFB0296D908F002A36B9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A180FFAF296D908F002A36B9 /* TableViewController.swift */; };
+		A180FFB3296D90D5002A36B9 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A180FFB2296D90D5002A36B9 /* Alamofire */; };
+		A180FFB6296D90F2002A36B9 /* RequestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A180FFB5296D90F2002A36B9 /* RequestViewModel.swift */; };
+		A1ABBC7B296ECC0F002CD6B5 /* ModelWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ABBC7A296ECC0F002CD6B5 /* ModelWizard.swift */; };
+		A1ABBC7D296ECDBC002CD6B5 /* ModelHouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ABBC7C296ECDBC002CD6B5 /* ModelHouse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A10A6717296DB759008A6655 /* ModelEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelEndPoint.swift; sourceTree = "<group>"; };
+		A10A6719296DBDC2008A6655 /* ModelIngredients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelIngredients.swift; sourceTree = "<group>"; };
+		A10A671B296DBEE7008A6655 /* ModelSpells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelSpells.swift; sourceTree = "<group>"; };
+		A10A671D296DC309008A6655 /* MenuViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModels.swift; sourceTree = "<group>"; };
 		A180FF95296D8C63002A36B9 /* Wizzard Word.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wizzard Word.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A180FF98296D8C63002A36B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A180FF9A296D8C63002A36B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,11 @@
 		A180FFA1296D8C64002A36B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A180FFA4296D8C64002A36B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A180FFA6296D8C64002A36B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A180FFAD296D8FAD002A36B9 /* ModelElixirs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelElixirs.swift; sourceTree = "<group>"; };
+		A180FFAF296D908F002A36B9 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		A180FFB5296D90F2002A36B9 /* RequestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestViewModel.swift; sourceTree = "<group>"; };
+		A1ABBC7A296ECC0F002CD6B5 /* ModelWizard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelWizard.swift; sourceTree = "<group>"; };
+		A1ABBC7C296ECDBC002CD6B5 /* ModelHouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelHouse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +50,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A180FFB3296D90D5002A36B9 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A10A671F296DCAAA008A6655 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A180FFAF296D908F002A36B9 /* TableViewController.swift */,
+				A180FF9C296D8C63002A36B9 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		A180FF8C296D8C63002A36B9 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +85,39 @@
 		A180FF97296D8C63002A36B9 /* Wizzard Word */ = {
 			isa = PBXGroup;
 			children = (
+				A10A671F296DCAAA008A6655 /* ViewController */,
+				A180FFB4296D90DF002A36B9 /* ViewModels */,
+				A180FFAC296D8F66002A36B9 /* Models */,
 				A180FF98296D8C63002A36B9 /* AppDelegate.swift */,
 				A180FF9A296D8C63002A36B9 /* SceneDelegate.swift */,
-				A180FF9C296D8C63002A36B9 /* ViewController.swift */,
 				A180FF9E296D8C63002A36B9 /* Main.storyboard */,
 				A180FFA1296D8C64002A36B9 /* Assets.xcassets */,
 				A180FFA3296D8C64002A36B9 /* LaunchScreen.storyboard */,
 				A180FFA6296D8C64002A36B9 /* Info.plist */,
 			);
 			path = "Wizzard Word";
+			sourceTree = "<group>";
+		};
+		A180FFAC296D8F66002A36B9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A180FFAD296D8FAD002A36B9 /* ModelElixirs.swift */,
+				A10A6717296DB759008A6655 /* ModelEndPoint.swift */,
+				A10A6719296DBDC2008A6655 /* ModelIngredients.swift */,
+				A10A671B296DBEE7008A6655 /* ModelSpells.swift */,
+				A1ABBC7A296ECC0F002CD6B5 /* ModelWizard.swift */,
+				A1ABBC7C296ECDBC002CD6B5 /* ModelHouse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A180FFB4296D90DF002A36B9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A180FFB5296D90F2002A36B9 /* RequestViewModel.swift */,
+				A10A671D296DC309008A6655 /* MenuViewModels.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +136,9 @@
 			dependencies = (
 			);
 			name = "Wizzard Word";
+			packageProductDependencies = (
+				A180FFB2296D90D5002A36B9 /* Alamofire */,
+			);
 			productName = "Wizzard Word";
 			productReference = A180FF95296D8C63002A36B9 /* Wizzard Word.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +167,9 @@
 				Base,
 			);
 			mainGroup = A180FF8C296D8C63002A36B9;
+			packageReferences = (
+				A180FFB1296D90D5002A36B9 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = A180FF96296D8C63002A36B9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,8 +198,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				A180FF9D296D8C63002A36B9 /* ViewController.swift in Sources */,
+				A10A671E296DC309008A6655 /* MenuViewModels.swift in Sources */,
 				A180FF99296D8C63002A36B9 /* AppDelegate.swift in Sources */,
+				A180FFAE296D8FAD002A36B9 /* ModelElixirs.swift in Sources */,
+				A1ABBC7D296ECDBC002CD6B5 /* ModelHouse.swift in Sources */,
+				A1ABBC7B296ECC0F002CD6B5 /* ModelWizard.swift in Sources */,
+				A180FFB0296D908F002A36B9 /* TableViewController.swift in Sources */,
 				A180FF9B296D8C63002A36B9 /* SceneDelegate.swift in Sources */,
+				A180FFB6296D90F2002A36B9 /* RequestViewModel.swift in Sources */,
+				A10A671A296DBDC2008A6655 /* ModelIngredients.swift in Sources */,
+				A10A671C296DBEE7008A6655 /* ModelSpells.swift in Sources */,
+				A10A6718296DB759008A6655 /* ModelEndPoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +367,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Vinicius.Wizzard-Word";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vinicius.Wizzard-World";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -326,7 +394,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Vinicius.Wizzard-Word";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vinicius.Wizzard-World";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -356,6 +424,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A180FFB1296D90D5002A36B9 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.6.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A180FFB2296D90D5002A36B9 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A180FFB1296D90D5002A36B9 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A180FF8D296D8C63002A36B9 /* Project object */;
 }
